@@ -12,7 +12,7 @@ public class Main {
         DataSavingManager saveData = new DataSavingManager(path);
 
         saveData.sortByGenre();
-        //while(true) {
+        //while(true) {/
             System.out.println("Make your choice:\n1 - to add new game\n2 - delete game\n3 - find game\n4 - print all the games");
             //@TODO switch case
         switch (scanner.nextInt()) {
